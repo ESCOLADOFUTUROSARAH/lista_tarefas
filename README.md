@@ -17,7 +17,6 @@ Este é um aplicativo simples de Lista de Tarefas desenvolvido em HTML, CSS e Ja
 O projeto está organizado da seguinte forma:
 
 ```plaintext
-/
 ├── index.html          # Arquivo HTML principal
 ├── css/
 │   └── styles.css      # Arquivo CSS para estilização
@@ -40,3 +39,12 @@ O projeto está organizado da seguinte forma:
 O número de tarefas exibidas por página é controlado pela variável tasksPerPage no arquivo script.js. Para alterar a quantidade, você pode ajustar o valor desta variável.
 
     var tasksPerPage = 5; // Altere este valor para o número desejado de tarefas por página
+
+## Estilização
+Você pode personalizar o estilo do aplicativo editando o arquivo styles.css na pasta css.
+
+## Contribuição
+Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para abrir um pull request.
+
+## Licença
+Este projeto é de código aberto e está licenciado sob a MIT License. Sinta-se livre para usar e modificar o código como quiser.
