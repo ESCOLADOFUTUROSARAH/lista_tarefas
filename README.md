@@ -24,6 +24,8 @@ O projeto está organizado da seguinte forma:
 ├── js/
 │   └── script.js       # Arquivo JavaScript para a lógica do aplicativo
 └── README.md           # Documentação do projeto
+```
+
 
 ## Como Usar
 
