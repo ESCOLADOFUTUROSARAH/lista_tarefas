@@ -20,6 +20,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Adiciona um evento de clique ao botão de adicionar tarefa
     addTaskBtn.addEventListener('click', addTask);
 
+    // Adiciona um evento de tecla pressionada ao campo de nova tarefa
+    newTaskInput.addEventListener('keypress', function (event) {
+        if (event.key === 'Enter') {
+            addTask(); // Chama a função de adicionar tarefa ao pressionar Enter
+        }
+    });
+
     // Função para adicionar uma nova tarefa
     function addTask() {
         // Obtém o texto da nova tarefa e remove espaços em branco extras
